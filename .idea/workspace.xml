@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d55db5-64c7-4c4c-be0c-49453ec4be2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-leetcode/33-search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-leetcode/33-search_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/.idea/dictionaries/lirixiang.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/.idea/go-pattern.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-pattern/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
