@@ -1,6 +1,9 @@
 package go_leetcode
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 /*
 给定一个单词数组和一个长度 maxWidth，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。
@@ -30,11 +33,47 @@ maxWidth = 16
  */
 func TestFullJustify(t *testing.T) {
 	words := []string{"This", "is", "an", "example", "of", "text", "justification."}
+	ws := blank(4)
+	fmt.Println(ws)
+	/*
+	[
+	   "This    is    an",
+	   "example  of text",
+	   "justification.  "
+	]
+	 */
+
 	maxWidth := 16
 	_ = fullJustify(words,maxWidth)
 }
 
 func fullJustify(words []string, maxWidth int) []string {
+
+	LL := 0
+	L := []string{}
+	for i := 0; i < len(words); i++{
+		word := words[i]
+		LL += len(word)+1
+		if LL - 1  >  maxWidth{
+			break
+		}
+		L = append(L,word)
+	}
+	rowL := 0
+	for i := 0; i < len(L); i++{
+		rowL += len(L[i])
+	}
+	remain := maxWidth - rowL
+	spaceInterval := len(L) - 1
+	spaceIntervalCnt :=  remain / spaceInterval
+	spaceRemainCnt :=  remain % spaceInterval
+	fmt.Println(spaceIntervalCnt,spaceRemainCnt)
+
 	return nil
 }
-
+func blank(n int) (s string) {
+	for i := 0; i < n; i ++{
+		s += " "
+	}
+	return
+}
