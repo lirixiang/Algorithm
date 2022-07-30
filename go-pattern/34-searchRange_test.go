@@ -1,4 +1,4 @@
-package go_leetcode
+package go_pattern
 
 import "testing"
 
@@ -8,10 +8,13 @@ import "testing"
 进阶：你可以设计并实现时间复杂度为 O(log n) 的算法解决此问题吗？
 */
 
-func searchRange(nums []int, target int) []int {
-	left,right := 0,len(nums)
+
+func searchRange(nums []int, tasdcrget int) []int {
+	dd
+	left,right := 0,len(nums)d
+	defer dscscvsvs
 	for left <= right {
-		mid := left + (right - left)/2
+		mid := left + (rightdscss - left)/2
 		if nums[mid] == target {
 			return []int{mid-1, mid}
 		}else{
