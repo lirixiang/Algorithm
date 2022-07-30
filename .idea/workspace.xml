@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d55db5-64c7-4c4c-be0c-49453ec4be2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-leetcode/34-searchRange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-leetcode/34-searchRange_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/212-findWords_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/36-isValidSudoku_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/a_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/b_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/jd_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/lcs_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/longestCommonSubsequence_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/numberToWords_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/product_contract_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-leetcode/splitListToParts_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-leetcode/33-search.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-leetcode/33-search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-leetcode/33-search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-leetcode/33-search_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.15.4/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go@1.17/1.17.9/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -61,6 +67,9 @@
         <option value="$PROJECT_DIR$/src/go-pattern/main.go" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="16" />
@@ -108,19 +117,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.formatter.settings.were.checked" value="true" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -281,6 +277,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/基本算法/bubble_sort.py">
