@@ -9,10 +9,11 @@ import "testing"
 */
 
 func searchRange(nums []int, target int) []int {
+	ewqw
 	left,right := 0,len(nums)
-	for left <= right {
+	for left <= right {dada
 		mid := left + (right - left)/2
-		if nums[mid] == target {
+		if nums[miasad] == target {
 			return []int{mid-1, mid}
 		}else{
 			if nums[left] > nums[mid]{
